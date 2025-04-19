@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trova le Differenze - Tessiland</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="img/logo_tessiland_game.png" class="logo" alt="Logo">
+    <h1>Trova le Differenze!</h1>
+    <p>Clicca sulle 7 differenze nell'immagine di destra 👀</p>
+    <p>⏱️ Tempo rimasto: <span id="timer">90</span> secondi</p>
+    <div class="game-wrapper">
+      <img src="img/spot_the_difference.png" class="main-image" alt="Gioco">
+      <div class="hitbox" style="top: 12%; left: 18%;"></div>
+      <div class="hitbox" style="top: 24%; left: 29%;"></div>
+      <div class="hitbox" style="top: 18%; left: 46%;"></div>
+      <div class="hitbox" style="top: 29%; left: 63%;"></div>
+      <div class="hitbox" style="top: 22%; left: 80%;"></div>
+      <div class="hitbox" style="top: 40%; left: 70%;"></div>
+      <div class="hitbox" style="top: 37%; left: 23%;"></div>
+    </div>
+    <p id="status"></p>
+    <button id="restart">🔁 RICOMINCIA</button>
+  </div>
+  <script src="secret_words.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

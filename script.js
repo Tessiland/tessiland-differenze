@@ -1,4 +1,3 @@
-
 let found = 0;
 let timeLeft = 90;
 const max = 7;

@@ -30,7 +30,9 @@ body {
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  display: none;
+  display: block; /* 🔁 Cambia momentaneamente per il test */
+  border: 2px dashed blue;
+  background-color: rgba(0, 0, 255, 0.1);
 }
 .hitbox.found {
   display: block;

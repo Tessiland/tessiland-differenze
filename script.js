@@ -42,7 +42,7 @@ function updateStatus() {
       <strong>Parola segreta: <span style='font-size:22px;'>${parola}</span></strong>
     `;
   } else {
-    status.textContent = \`Differenze trovate: \${found} su \${max}\`;
+    status.textContent = "Differenze trovate: " + found + " su " + max;
   }
 }
 

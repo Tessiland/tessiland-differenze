@@ -1,8 +1,10 @@
 const secretWords = [
-  "gomitolo rosa", "uncinetto magico", "punto basso segreto", "granny misterioso", "borsa stellare",
-  "filato arcobaleno", "copertina fatata", "Tessiluxe dorato", "costume incantato", "cordino segreto",
-  "donny d’estate", "juta country", "bag crochet", "filo brillante", "schema magico",
-  "punto invisibile", "square nascosto", "catena dorata", "uncinetto invisibile", "pizzo crochet",
-  "punti nascosti", "filato misterioso", "cuore di lana", "intreccio fatato", "trama perfetta",
-  "loop incantato", "filo svelato", "punto gioiello", "gomitolo nascosto", "maglia segreta"
+  "gomitolo rosa", "uncinetto magico", "granny misterioso", "copertina fatata",
+  "punto basso segreto", "cordino arcobaleno", "borsa stellare", "filato invisibile",
+  "costume crochet", "schema fatato", "gomitolo nascosto", "filo brillante", 
+  "maglia segreta", "loop incantato", "trama perfetta", "punto gioiello",
+  "uncinetto invisibile", "bag crochet", "filo svelato", "juta country",
+  "Tessiluxe dorato", "donny d’estate", "catena dorata", "cuore di lana",
+  "punto misterioso", "copertina stellare", "intreccio fatato", "filato misterioso",
+  "punto nascosto", "uncinetto segreto"
 ];
